@@ -2,6 +2,9 @@
   display: flex;
   padding: 0px;
   margin: 0px;
+  height: 3.5rem;
+  padding: 5px 0px;
+
   > ul {
     padding: 0px;
     margin: 0px;
@@ -9,7 +12,7 @@
       display: flex;
 
       > p {
-        padding: 5px 0px;
+        padding: 0px 0px;
         margin: 0px;
         font-size: 90%;
       }

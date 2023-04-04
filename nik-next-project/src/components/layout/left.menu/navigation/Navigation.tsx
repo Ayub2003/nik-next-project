@@ -1,19 +1,6 @@
-import { GetStaticProps } from "next";
-import { FC } from "react";
+import { ILeftMenu } from "@/redux/slices/leftmenu/leftmenu.model";
+import { NextPage } from "next";
 
-export const Navigation: FC<{ reviews: Array<{}> }> = ({ reviews }) => {
-  console.log(reviews);
+export const Navigation: NextPage = () => {
   return <div></div>;
-};
-
-export const getStaticProps: GetStaticProps<any> = async () => {
-  const response = await fetch("https://jsonplaceholder.typicode.com/posts");
-  const data = await response.json();
-
-  return {
-    props: {
-      reviews: data,
-    },
-    revalidate: 60,q
-  };
 };
