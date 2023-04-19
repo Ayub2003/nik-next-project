@@ -1,0 +1,18 @@
+.wrapper {
+  background-color: rgb(28, 103, 130);
+  position: relative;
+  color: white;
+  z-index: 20;
+}
+
+.wrapper ul {
+  display: flex;
+  text-decoration: none;
+  padding: 5px;
+
+  > li {
+    list-style-type: none;
+    padding: 10px 15px;
+    font-size: 110%;
+  }
+}

@@ -1,0 +1,15 @@
+.wrapper {
+  position: absolute;
+  width: 100%;
+
+  menu {
+    background-color: rgb(22, 66, 84);
+    height: 100px;
+    width: 100%;
+
+    > ul {
+      display: flex;
+      text-align: left;
+    }
+  }
+}

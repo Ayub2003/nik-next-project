@@ -1,0 +1,893 @@
+{
+  "leftPages": {
+    "data": [
+      {
+        "id": 1,
+        "parent_id": 0,
+        "slug": "o-college",
+        "title": "О колледже",
+        "sort": null
+      },
+      {
+        "id": 154,
+        "parent_id": 0,
+        "slug": " ",
+        "title": "Сведения об образовательной организации",
+        "sort": null,
+        "children": [
+          {
+            "id": 12,
+            "parent_id": 154,
+            "slug": "o-college",
+            "title": "О колледже",
+            "sort": 15
+          },
+          {
+            "id": 15,
+            "parent_id": 154,
+            "slug": "common",
+            "title": "Основные сведения",
+            "sort": 1
+          },
+          {
+            "id": 16,
+            "parent_id": 154,
+            "slug": "spec",
+            "title": "Специальности",
+            "sort": 16
+          },
+          {
+            "id": 62,
+            "parent_id": 154,
+            "slug": "contact",
+            "title": "Контакты",
+            "sort": 20
+          },
+          {
+            "id": 63,
+            "parent_id": 154,
+            "slug": "fotogalereya",
+            "title": "Фотогалерея",
+            "sort": 18
+          },
+          {
+            "id": 153,
+            "parent_id": 154,
+            "slug": "qa",
+            "title": "Задать вопрос",
+            "sort": 19
+          },
+          {
+            "id": 155,
+            "parent_id": 154,
+            "slug": "struct",
+            "title": "Структура и органы управления образовательной организацией",
+            "sort": 2
+          },
+          {
+            "id": 156,
+            "parent_id": 154,
+            "slug": "document",
+            "title": "Документы",
+            "sort": 3
+          },
+          {
+            "id": 157,
+            "parent_id": 154,
+            "slug": "education",
+            "title": "Образование",
+            "sort": 4
+          },
+          {
+            "id": 158,
+            "parent_id": 154,
+            "slug": "eduStandarts",
+            "title": "Образовательные стандарты и требования",
+            "sort": 5
+          },
+          {
+            "id": 159,
+            "parent_id": 154,
+            "slug": "employees",
+            "title": "Руководство. Педагогический (научно-педагогический) состав",
+            "sort": 6
+          },
+          {
+            "id": 160,
+            "parent_id": 154,
+            "slug": "objects",
+            "title": "Материально-техническое обеспечение и оснащённость образовательного процесса",
+            "sort": 7
+          },
+          {
+            "id": 161,
+            "parent_id": 154,
+            "slug": "grants",
+            "title": "Стипендии и меры поддержки обучающихся",
+            "sort": 8
+          },
+          {
+            "id": 162,
+            "parent_id": 154,
+            "slug": "paid_edu",
+            "title": "Платные образовательные услуги",
+            "sort": 9
+          },
+          {
+            "id": 163,
+            "parent_id": 154,
+            "slug": "budget",
+            "title": "Финансово-хозяйственная деятельность",
+            "sort": 10
+          },
+          {
+            "id": 164,
+            "parent_id": 154,
+            "slug": "vacant",
+            "title": "Вакантные места для приёма (перевода) обучающихся",
+            "sort": 11
+          },
+          {
+            "id": 165,
+            "parent_id": 154,
+            "slug": "ovz",
+            "title": "Доступная среда",
+            "sort": 12
+          },
+          {
+            "id": 166,
+            "parent_id": 154,
+            "slug": "inter",
+            "title": "Международное сотрудничество",
+            "sort": 13
+          },
+          {
+            "id": 167,
+            "parent_id": 154,
+            "slug": "catering",
+            "title": "Организация питания в образовательной организации",
+            "sort": 14
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "parent_id": 0,
+        "slug": "kachestvo-obrazovaniya",
+        "title": "Внутренняя система оценки качества образования",
+        "sort": 1,
+        "children": [
+          {
+            "id": 76,
+            "parent_id": 7,
+            "slug": "lovsoko-kalnyye-normativnyye-akty",
+            "title": "Локальные нормативные акты",
+            "sort": null
+          },
+          {
+            "id": 77,
+            "parent_id": 7,
+            "slug": "vsoko-plan",
+            "title": "Документы по планированию",
+            "sort": null
+          },
+          {
+            "id": 78,
+            "parent_id": 7,
+            "slug": "vsoko-analiticheskiye-materialy",
+            "title": "Аналитические материалы",
+            "sort": null
+          },
+          {
+            "id": 79,
+            "parent_id": 7,
+            "slug": "vsoko-nezavisimaya-otsenka",
+            "title": "Документы по независимой оценке качества",
+            "sort": null
+          },
+          {
+            "id": 80,
+            "parent_id": 7,
+            "slug": "vsoko-otsenka-obrazovatelnogo-protsessa",
+            "title": "Оценка образовательного процесса потребителями",
+            "sort": null
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "parent_id": 0,
+        "slug": "elektronnaya-informatsionno-obrazovatelnaya-sreda",
+        "title": "Электронная информационно-образовательная среда",
+        "sort": 2,
+        "children": [
+          {
+            "id": 81,
+            "parent_id": 6,
+            "slug": "lekchii",
+            "title": "Лекционный материал",
+            "sort": null
+          },
+          {
+            "id": 82,
+            "parent_id": 6,
+            "slug": "uchebnie-plani",
+            "title": "Учебные планы",
+            "sort": null
+          },
+          {
+            "id": 83,
+            "parent_id": 6,
+            "slug": "rabochie-programmi",
+            "title": "Рабочие программы дисциплин (модулей), программы практик",
+            "sort": null
+          },
+          {
+            "id": 84,
+            "parent_id": 6,
+            "slug": "el-obrazov-resursi",
+            "title": "Электронные учебные издания и электронные образовательные ресурсы",
+            "sort": null
+          },
+          {
+            "id": 85,
+            "parent_id": 6,
+            "slug": "obr-sreda",
+            "title": "Цифровая образовательная среда",
+            "sort": null
+          },
+          {
+            "id": 86,
+            "parent_id": 6,
+            "slug": "El-bibl-sist",
+            "title": "Электронно-библиотечная система",
+            "sort": null
+          }
+        ]
+      },
+      {
+        "id": 65,
+        "parent_id": 0,
+        "slug": "kompleksnaya_bezopasnost",
+        "title": "Комплексная безопасность",
+        "sort": 3,
+        "children": [
+          {
+            "id": 87,
+            "parent_id": 65,
+            "slug": "corruption",
+            "title": "Противодействие коррупции",
+            "sort": null
+          },
+          {
+            "id": 88,
+            "parent_id": 65,
+            "slug": "againstterror",
+            "title": "Противодействие терроризму и экстремизму",
+            "sort": null
+          },
+          {
+            "id": 89,
+            "parent_id": 65,
+            "slug": "zashita_detey",
+            "title": "Защита детей от информации, причиняющей вред их здоровью и развитию",
+            "sort": null
+          },
+          {
+            "id": 90,
+            "parent_id": 65,
+            "slug": "okhrana-truda",
+            "title": "Охрана труда",
+            "sort": null
+          }
+        ]
+      },
+      {
+        "id": 66,
+        "parent_id": 0,
+        "slug": "obrazovaniye",
+        "title": "Образование",
+        "sort": 4,
+        "children": [
+          {
+            "id": 91,
+            "parent_id": 66,
+            "slug": "rezhim-raboty-kolledzha",
+            "title": "Режим работы колледжа",
+            "sort": null
+          },
+          {
+            "id": 92,
+            "parent_id": 66,
+            "slug": "raspisaniye-zanyatiy",
+            "title": "Расписание занятий",
+            "sort": null
+          },
+          {
+            "id": 93,
+            "parent_id": 66,
+            "slug": "kuratory-i-gruppy",
+            "title": "Кураторы и группы",
+            "sort": null
+          },
+          {
+            "id": 94,
+            "parent_id": 66,
+            "slug": "tsikly",
+            "title": "Циклы",
+            "sort": null
+          },
+          {
+            "id": 95,
+            "parent_id": 66,
+            "slug": "Informatsionnyye sistemy-i-programmirovaniye",
+            "title": "Информационные системы и программирование",
+            "sort": null
+          },
+          {
+            "id": 96,
+            "parent_id": 66,
+            "slug": "yurisprudentsiya",
+            "title": "Юриспруденция",
+            "sort": null
+          },
+          {
+            "id": 97,
+            "parent_id": 66,
+            "slug": "doshkolnoye-obrazovaniye",
+            "title": "Дошкольное образование",
+            "sort": null
+          },
+          {
+            "id": 98,
+            "parent_id": 66,
+            "slug": "prepodavaniye-v-nachalnykh-klassakh",
+            "title": "Преподавание в начальных классах",
+            "sort": null
+          },
+          {
+            "id": 99,
+            "parent_id": 66,
+            "slug": "sestrinskoye-delo",
+            "title": "Сестринское дело",
+            "sort": null
+          },
+          {
+            "id": 100,
+            "parent_id": 66,
+            "slug": "Farmaciya",
+            "title": "Фармация",
+            "sort": null
+          },
+          {
+            "id": 101,
+            "parent_id": 66,
+            "slug": "stomatologiya-ortopedicheskaya",
+            "title": "Стоматология ортопедическая",
+            "sort": null
+          },
+          {
+            "id": 102,
+            "parent_id": 66,
+            "slug": "operator-informatsionnykh-sistem-i-resursov",
+            "title": "Оператор информационных систем и ресурсов",
+            "sort": null
+          },
+          {
+            "id": 103,
+            "parent_id": 66,
+            "slug": "parikmakher",
+            "title": "Парикмахер",
+            "sort": null
+          },
+          {
+            "id": 104,
+            "parent_id": 66,
+            "slug": "provodnik-na-zheleznodorozhnom-transporte",
+            "title": "Проводник на железнодорожном транспорте",
+            "sort": null
+          },
+          {
+            "id": 105,
+            "parent_id": 66,
+            "slug": "deloproizvoditel",
+            "title": "Делопроизводитель",
+            "sort": null
+          },
+          {
+            "id": 106,
+            "parent_id": 66,
+            "slug": "Ispolnitel-khudozhestvenno-oformitelskikh-rabot",
+            "title": "Исполнитель художественно-оформительских работ",
+            "sort": null
+          },
+          {
+            "id": 107,
+            "parent_id": 66,
+            "slug": "prodavets",
+            "title": "Продавец, контролер-кассир",
+            "sort": null
+          },
+          {
+            "id": 108,
+            "parent_id": 66,
+            "slug": "olimpiady-i-konkursy",
+            "title": "Олимпиады и конкурсы",
+            "sort": null
+          },
+          {
+            "id": 109,
+            "parent_id": 66,
+            "slug": "priyemnaya-komissiya",
+            "title": "Приемная комиссия",
+            "sort": null
+          }
+        ]
+      },
+      {
+        "id": 67,
+        "parent_id": 0,
+        "slug": "zhizn-kolledzha",
+        "title": "Жизнь колледжа",
+        "sort": 5,
+        "children": [
+          {
+            "id": 110,
+            "parent_id": 67,
+            "slug": "o-nas",
+            "title": "О нас",
+            "sort": null
+          },
+          {
+            "id": 111,
+            "parent_id": 67,
+            "slug": "novosti",
+            "title": "Новости",
+            "sort": null
+          },
+          {
+            "id": 112,
+            "parent_id": 67,
+            "slug": "sobitiya",
+            "title": "События",
+            "sort": null
+          },
+          {
+            "id": 113,
+            "parent_id": 67,
+            "slug": "pfoto",
+            "title": "Фотогалерея",
+            "sort": null
+          },
+          {
+            "id": 114,
+            "parent_id": 67,
+            "slug": "video",
+            "title": "Видео",
+            "sort": null
+          },
+          {
+            "id": 115,
+            "parent_id": 67,
+            "slug": "nagradi",
+            "title": "Награды",
+            "sort": null
+          },
+          {
+            "id": 116,
+            "parent_id": 67,
+            "slug": "doska-pocheta",
+            "title": "Доска почета",
+            "sort": null
+          },
+          {
+            "id": 117,
+            "parent_id": 67,
+            "slug": "missiya",
+            "title": "Миссия и цели",
+            "sort": null
+          }
+        ]
+      },
+      {
+        "id": 69,
+        "parent_id": 0,
+        "slug": "otdel-praktic-trudoustroistva",
+        "title": "Отдел практик и трудоустройства",
+        "sort": 7,
+        "children": [
+          {
+            "id": 121,
+            "parent_id": 69,
+            "slug": "uchebnaya-praktika",
+            "title": "Учебная практика",
+            "sort": null
+          },
+          {
+            "id": 122,
+            "parent_id": 69,
+            "slug": "proizvodstvennaya-praktika",
+            "title": "Производственная практика",
+            "sort": null
+          },
+          {
+            "id": 123,
+            "parent_id": 69,
+            "slug": "bazy-prokhozhdeniya-praktiki",
+            "title": "Базы прохождения практики",
+            "sort": null
+          },
+          {
+            "id": 124,
+            "parent_id": 69,
+            "slug": "",
+            "title": "Ассоциация выпускников",
+            "sort": null
+          },
+          {
+            "id": 126,
+            "parent_id": 69,
+            "slug": "trudoustroystvo-vypusknikov",
+            "title": "Трудоустройство выпускников",
+            "sort": null
+          }
+        ]
+      },
+      {
+        "id": 70,
+        "parent_id": 0,
+        "slug": "vospitatelnaya-rabota",
+        "title": "Воспитательная работа",
+        "sort": 8,
+        "children": [
+          {
+            "id": 134,
+            "parent_id": 70,
+            "slug": "meropriyatiya",
+            "title": "Мероприятия",
+            "sort": null
+          },
+          {
+            "id": 135,
+            "parent_id": 70,
+            "slug": "dukhovno-prosvetitelskaya-deyatelnost",
+            "title": "Духовно-просветительская деятельность",
+            "sort": null
+          },
+          {
+            "id": 136,
+            "parent_id": 70,
+            "slug": "molodezhnyy-tsentr",
+            "title": "Молодежный центр",
+            "sort": null
+          },
+          {
+            "id": 137,
+            "parent_id": 70,
+            "slug": "volontery",
+            "title": "Волонтеры НИК",
+            "sort": null
+          },
+          {
+            "id": 138,
+            "parent_id": 70,
+            "slug": "rabochiye-programmy-po-vospitatelnoy-rabote",
+            "title": "Рабочие программы воспитания на 2022-2023 учебный год",
+            "sort": null
+          },
+          {
+            "id": 139,
+            "parent_id": 70,
+            "slug": "sluzhba-mediatsii",
+            "title": "Служба медиации",
+            "sort": null
+          }
+        ]
+      },
+      {
+        "id": 71,
+        "parent_id": 0,
+        "slug": "sport-klub",
+        "title": "Спортивный клуб",
+        "sort": 9,
+        "children": [
+          {
+            "id": 131,
+            "parent_id": 71,
+            "slug": "Plan-dassr",
+            "title": "План мероприятий",
+            "sort": null
+          },
+          {
+            "id": 132,
+            "parent_id": 71,
+            "slug": "Sport_meropri",
+            "title": "Спортивные мероприятия",
+            "sort": null
+          },
+          {
+            "id": 133,
+            "parent_id": 71,
+            "slug": "poloch_o_cck",
+            "title": "Положения о ССК",
+            "sort": null
+          }
+        ]
+      },
+      {
+        "id": 72,
+        "parent_id": 0,
+        "slug": "Centr-prof-obrazovaniy",
+        "title": "Центр профессионального обучения",
+        "sort": 10
+      },
+      {
+        "id": 144,
+        "parent_id": 0,
+        "slug": "vpr",
+        "title": "ВПР",
+        "sort": 11
+      },
+      {
+        "id": 73,
+        "parent_id": 0,
+        "slug": "akkreditatsiya",
+        "title": "Аккредитация",
+        "sort": 12,
+        "children": [
+          {
+            "id": 140,
+            "parent_id": 73,
+            "slug": "svidetelstva-ob-akkreditatsii",
+            "title": "Свидетельства об аккредитации",
+            "sort": null
+          },
+          {
+            "id": 141,
+            "parent_id": 73,
+            "slug": "predakkreditatsionnaya-podgotovka",
+            "title": "Предаккредитационная подготовка",
+            "sort": null
+          },
+          {
+            "id": 142,
+            "parent_id": 73,
+            "slug": "pervichnaya-akkreditatsiya-spetsialista",
+            "title": "Первичная аккредитация специалиста",
+            "sort": null
+          },
+          {
+            "id": 143,
+            "parent_id": 73,
+            "slug": "aкк_2022",
+            "title": "Аккредитация 2022",
+            "sort": null
+          }
+        ]
+      },
+      {
+        "id": 74,
+        "parent_id": 0,
+        "slug": "nashi-proyekty",
+        "title": "Наши проекты",
+        "sort": 13
+      },
+      {
+        "id": 75,
+        "parent_id": 0,
+        "slug": "contact",
+        "title": "Контакты",
+        "sort": 14,
+        "children": [
+          {
+            "id": 127,
+            "parent_id": 75,
+            "slug": "contacts",
+            "title": "Контакты",
+            "sort": null
+          },
+          {
+            "id": 128,
+            "parent_id": 75,
+            "slug": "press-tsentr",
+            "title": "Пресс-центр",
+            "sort": null
+          },
+          {
+            "id": 129,
+            "parent_id": 75,
+            "slug": "chasto-zadavayemyye-voprosy",
+            "title": "Часто задаваемые вопросы",
+            "sort": null
+          },
+          {
+            "id": 130,
+            "parent_id": 75,
+            "slug": "rekvizity",
+            "title": "Реквизиты",
+            "sort": null
+          }
+        ]
+      }
+    ]
+  },
+  "topPages": {
+    "data": [
+      {
+        "id": 3,
+        "parent_id": 0,
+        "slug": "student",
+        "title": "Студентам",
+        "sort": null,
+        "children": [
+          {
+            "id": 5,
+            "parent_id": 3,
+            "slug": "distantsionnoye-obucheniye",
+            "title": "Дистанционное обучение",
+            "sort": null
+          },
+          {
+            "id": 145,
+            "parent_id": 3,
+            "slug": "raspisanie-zanyatiy",
+            "title": "Расписание занятий",
+            "sort": null
+          },
+          {
+            "id": 146,
+            "parent_id": 3,
+            "slug": "elektronnaya-informacionno-obrazovatelnaya-sreda",
+            "title": "Электронная информационно-образовательная среда",
+            "sort": null
+          },
+          {
+            "id": 147,
+            "parent_id": 3,
+            "slug": "obedinennyy-sovet-obuchayushchihsya",
+            "title": "Объединенный совет обучающихся",
+            "sort": null
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "parent_id": 0,
+        "slug": "sotrudnikam",
+        "title": "Сотрудникам",
+        "sort": null,
+        "children": [
+          {
+            "id": 150,
+            "parent_id": 4,
+            "slug": "elektronnaya-informacionno-obrazovatelnaya-sreda-1",
+            "title": "Электронная информационно-образовательная среда",
+            "sort": null
+          },
+          {
+            "id": 151,
+            "parent_id": 4,
+            "slug": "effektivnyy-kontrakt",
+            "title": "Эффективный контракт",
+            "sort": null
+          },
+          {
+            "id": 152,
+            "parent_id": 4,
+            "slug": "qa",
+            "title": "Задать вопрос",
+            "sort": null
+          }
+        ]
+      },
+      {
+        "id": 170,
+        "parent_id": 0,
+        "slug": "avtoshkola",
+        "title": "Автошкола",
+        "sort": null
+      },
+      {
+        "id": 2,
+        "parent_id": 0,
+        "slug": "abitur",
+        "title": "Абитуриентам",
+        "sort": 3,
+        "children": [
+          {
+            "id": 148,
+            "parent_id": 2,
+            "slug": "priem-2023",
+            "title": "Прием 2023",
+            "sort": null
+          },
+          {
+            "id": 149,
+            "parent_id": 2,
+            "slug": "specialnosti",
+            "title": "Специальности",
+            "sort": null
+          },
+          {
+            "id": 168,
+            "parent_id": 2,
+            "slug": "litsenziya",
+            "title": "Лицензия",
+            "sort": null
+          },
+          {
+            "id": 169,
+            "parent_id": 2,
+            "slug": "akkreditatsiya",
+            "title": "Аккредитация",
+            "sort": null
+          }
+        ]
+      }
+    ]
+  },
+  "footerPages": {
+    "data": [
+      {
+        "id": 13,
+        "parent_id": 0,
+        "slug": "doc",
+        "title": "Документы",
+        "sort": null,
+        "children": [
+          {
+            "id": 17,
+            "parent_id": 13,
+            "slug": "ustav",
+            "title": "Устав",
+            "sort": null
+          },
+          {
+            "id": 18,
+            "parent_id": 13,
+            "slug": "litsenziya",
+            "title": "Лицензия",
+            "sort": null
+          },
+          {
+            "id": 21,
+            "parent_id": 13,
+            "slug": "svidetelstva-ob-akkreditatsii",
+            "title": "Аккредитация",
+            "sort": null
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "parent_id": 0,
+        "slug": "bezopasnoct",
+        "title": "Безопасность",
+        "sort": null,
+        "children": [
+          {
+            "id": 19,
+            "parent_id": 14,
+            "slug": "againstterror",
+            "title": "Противодействие терроризму и экстремизму",
+            "sort": null
+          },
+          {
+            "id": 20,
+            "parent_id": 14,
+            "slug": "corruption",
+            "title": "Противодействие коррупции",
+            "sort": null
+          },
+          {
+            "id": 23,
+            "parent_id": 14,
+            "slug": "info-bezopasnost",
+            "title": "Информационная безопасность",
+            "sort": null
+          }
+        ]
+      }
+    ]
+  }
+}

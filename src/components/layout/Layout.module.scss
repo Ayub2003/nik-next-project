@@ -1,0 +1,45 @@
+.layout {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.leftMenu {
+  position: fixed;
+  width: min(25%, 260px);
+  height: 1000px;
+  z-index: 999;
+}
+
+.contentWrapper {
+  display: flex;
+  background-color: aliceblue;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 6000px;
+  background-color: aquamarine;
+  margin-top: 10px;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.footer {
+  background-color: rgb(236, 208, 171);
+}
+
+.rightMenu {
+  position: absolute;
+  right: 0px;
+  height: 550px;
+  width: 20%;
+  background-color: rgb(161, 135, 95);
+  margin-top: 10px;
+}

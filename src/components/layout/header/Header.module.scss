@@ -1,0 +1,18 @@
+.wrapper {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(27, 40, 48);
+  height: 100px;
+  text-align: left;
+  margin-left: min(25%, 260px);
+}
+
+.contacts {
+  color: yellow;
+  font-size: 80%;
+  text-align: right;
+
+  > ul {
+    padding: 5px;
+  }
+}
