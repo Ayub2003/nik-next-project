@@ -5,7 +5,6 @@ const s = styles;
 
 export const HeaderNavBar: FC = () => {
   const [isOpen, setIsOpen] = useState(false);
-
   return (
     <div className={s.wrapper}>
       <ul>
