@@ -2,7 +2,6 @@ import {
   ActionReducerMapBuilder,
   PayloadAction,
   createAction,
-  createAsyncThunk,
 } from "@reduxjs/toolkit";
 import { ILeftMenu, ItemNav } from "./leftmenu.model";
 import { HYDRATE } from "next-redux-wrapper";

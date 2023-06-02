@@ -7,7 +7,7 @@ const s = styles;
 
 export const DetailMenu: FC<{
   isOpen: boolean;
-  dataForButtons: IChildrenLeftMenu[];
+  dataForButtons?: IChildrenLeftMenu[];
 }> = ({ isOpen, dataForButtons }) => {
   const transition = useTransition(isOpen, {
     from: { opacity: 1, x: -300 },
@@ -20,8 +20,9 @@ export const DetailMenu: FC<{
         (style, item) =>
           item && (
             <animated.menu style={style} className={s.menu}>
-              {dataForButtons.map((element, index) => (
+              {dataForButtons?.map((element, index) => (
                 <Link
+                    key={index}
                   className={s.link}
                   href={"/education-org-info/" + element.slug}
                 >

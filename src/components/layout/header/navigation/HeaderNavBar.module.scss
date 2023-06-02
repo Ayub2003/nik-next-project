@@ -3,6 +3,7 @@
   position: relative;
   color: white;
   z-index: 20;
+  min-height: 50px;
 }
 
 .wrapper ul {
@@ -15,4 +16,8 @@
     padding: 10px 15px;
     font-size: 110%;
   }
+}
+
+@media screen and (max-device-width: 800px) {
+  .wrapper ul {display: none}
 }

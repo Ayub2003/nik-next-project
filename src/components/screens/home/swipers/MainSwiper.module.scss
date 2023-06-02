@@ -1,22 +1,17 @@
-.swiper {
-  width: 100%;
-  height: 100%;
+.swiper{
+  height: 500px;
+  width: calc(80% - min(25%, 260px));
+  margin-left: min(25%, 260px);
+  aspect-ratio: 1/1;
 }
 
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-
-  /* Center slide text vertically */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media screen and (max-device-width: 800px) and (min-device-width: 600px) {
+  .swiper {width: 100%;
+ }
 }
 
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+@media screen and (max-device-width: 600px) {
+  .swiper {
+    width: 100%;
+    margin-left: 0px}
 }

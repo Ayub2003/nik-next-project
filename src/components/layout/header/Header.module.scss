@@ -6,6 +6,9 @@
   text-align: left;
   margin-left: min(25%, 260px);
 }
+@media screen and (max-device-width: 600px) {
+  .wrapper {margin-left: 0px}
+}
 
 .contacts {
   color: yellow;

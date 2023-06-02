@@ -1,11 +1,9 @@
-import { BASE_URL, LEFT_MENU_DATA } from "@/components/api.fetches/api.consts";
-import { LeftMenu } from "@/components/layout/left.menu/LeftMenu";
+import { LEFT_MENU_DATA } from "@/components/api.fetches/api.consts";
 import {
   IChildrenLeftMenu,
-  ILeftMenu,
   ItemNav,
 } from "@/redux/slices/leftmenu/leftmenu.model";
-import axyos from "axios";
+
 
 export const getAllLeftMenu = async () => {
   const response = await fetch(LEFT_MENU_DATA);

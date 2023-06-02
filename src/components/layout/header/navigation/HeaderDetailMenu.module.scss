@@ -3,13 +3,43 @@
   width: 100%;
 
   menu {
+    display: flex;
     background-color: rgb(22, 66, 84);
-    height: 100px;
     width: 100%;
-
     > ul {
       display: flex;
       text-align: left;
+
     }
   }
 }
+
+@media screen and (max-device-width: 800px) {
+  .wrapper {
+    display: none
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  text-align: left;
+  padding: 1em 2em;
+  max-width: 15%;
+
+  > li {
+    list-style-type: none;
+    font-size: 130%;
+  }
+
+  @media screen and (max-device-width: 1100px) {
+    >li {font-size: 105%;}}
+
+  @media screen and (max-device-width: 1000px) {
+    >li {font-size: 90%;}}
+
+
+    //text-shadow: red -1.5px 0, cyan 1.5px 0;
+
+}
+

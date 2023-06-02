@@ -6,6 +6,7 @@ export interface IChildrenLeftMenu {
   sort: number | null;
 }
 export interface ILeftMenu {
+
   data: ItemNav[];
 }
 

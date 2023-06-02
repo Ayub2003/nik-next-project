@@ -25,7 +25,6 @@ export const LeftMenu: FC = () => {
       : setDetailMenuData([element]);
     setIsOpen(!isOpen);
   };
-  console.log("selected", selectedLeftMenuData);
 
   return (
     <div className={s.wrapper}>
@@ -35,9 +34,9 @@ export const LeftMenu: FC = () => {
           <p>{info}</p>
         </div>
         <ul>
-          {selectedLeftMenuData.map((element: ItemNav, index: number) => {
+          {selectedLeftMenuData?.map((element: ItemNav) => {
             return (
-              <li
+              <li key={element.id}
                 onClick={() => {
                   setDetailMenuDataAndIsOpen(element);
                 }}

@@ -7,6 +7,17 @@ import {
 } from "@/service/leftmenu.service";
 import { NextPage } from "next";
 
+
+
+const EducationInfo: NextPage<any> = (props) => {
+    const { slugData, leftMenuData } = props;
+    console.log("sluGdata", slugData, leftMenuData);
+    return <Layout>Ed info</Layout>;
+};
+
+export default EducationInfo;
+
+
 export async function getStaticPaths() {
   const slugs: string[] = await getAllLeftMenuSlugs();
   const paths = slugs.map((slug) => {
@@ -36,10 +47,4 @@ export const getStaticProps = wrapper.getStaticProps(
   }
 );
 
-const EducationInfo: NextPage<any> = (props) => {
-  const { slugData, leftMenuData } = props;
-  console.log("sluGdata", slugData, leftMenuData);
-  return <Layout>Ed info</Layout>;
-};
 
-export default EducationInfo;
