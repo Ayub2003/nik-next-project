@@ -5,21 +5,28 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
-import styles from "./MainSwiper.module.scss"
-const s = styles
+import styles from "./MainSwiper.module.scss";
+const s = styles;
 
 // import required modules
 import { Navigation } from "swiper";
 
 export const NewsSwiper = () => {
-    return (
+  const exampleImg =
+    "https://www.interfax.ru/ftproot/photos/photostory/2022/04/29/week/week7_1100.jpg";
+  return (
+    <Swiper navigation={true} modules={[Navigation]} className={s.swiper}>
+      {[1, 2, 3].map((e, i) => (
         <>
-            <Swiper navigation={true} modules={[Navigation]} className={s.swiper}>
-
-                {['red', 'blue', 'green'].map((e,i)=>  <SwiperSlide style={{backgroundColor: e}}>Slide  {i+1}</SwiperSlide>)}
-
-
-            </Swiper>
+          <SwiperSlide className={s.swiperSlide}>
+            <img className={s.swiperSlideImage} src={exampleImg}></img>
+            <div className={s.swiperSlideDate}>
+              <p>Понедельник, 12 июня 2023</p>
+              <p>0:02</p>
+            </div>
+          </SwiperSlide>
         </>
-    );
-}
+      ))}
+    </Swiper>
+  );
+};

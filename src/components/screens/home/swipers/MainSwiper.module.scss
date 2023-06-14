@@ -1,17 +1,43 @@
-.swiper{
+.swiper {
   height: 500px;
   width: calc(80% - min(25%, 260px));
   margin-left: min(25%, 260px);
-  aspect-ratio: 1/1;
+  background-color: red;
 }
 
 @media screen and (max-device-width: 800px) and (min-device-width: 600px) {
-  .swiper {width: 100%;
- }
+  .swiper {
+    width: 100%;
+  }
 }
 
 @media screen and (max-device-width: 600px) {
   .swiper {
     width: 100%;
-    margin-left: 0px}
+    margin-left: 0px;
+  }
+}
+
+.swiperSlide {
+  position: relative;
+}
+
+.swiperSlideImage {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.swiperSlideDate {
+  position: absolute;
+  top: 0;
+  text-align: left;
+  margin-left: 2%;
+  margin-top: 2%;
+  color: white;
+
+  > p:nth-child(1) {
+    font-size: 140%;
+    font-weight: 500;
+  }
 }

@@ -11,7 +11,7 @@ import {
 
 const s = styles;
 const info =
-  " Профессиональная образовательная автономная некоммерческая организация «Национальный инновационный колледж»";
+  "Профессиональная образовательная автономная некоммерческая организация «Национальный инновационный колледж»";
 
 export const LeftMenu: FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,7 +36,8 @@ export const LeftMenu: FC = () => {
         <ul>
           {selectedLeftMenuData?.map((element: ItemNav) => {
             return (
-              <li key={element.id}
+              <li
+                key={element.id}
                 onClick={() => {
                   setDetailMenuDataAndIsOpen(element);
                 }}
