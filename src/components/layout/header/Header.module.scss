@@ -2,12 +2,13 @@
   margin: 0px;
   padding: 0px;
   background-color: rgb(27, 40, 48);
-  height: 100px;
   text-align: left;
   margin-left: min(25%, 260px);
 }
-@media screen and (max-device-width: 600px) {
-  .wrapper {margin-left: 0px}
+@media screen and (max-device-width: 800px) {
+  .wrapper {
+    margin-left: 0px;
+  }
 }
 
 .contacts {
@@ -17,5 +18,11 @@
 
   > ul {
     padding: 5px;
+  }
+}
+
+@media screen and (max-device-width: 800px) {
+  .contacts {
+    display: none;
   }
 }

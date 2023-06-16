@@ -1,11 +1,16 @@
 import { Action, ThunkAction, configureStore } from "@reduxjs/toolkit";
 import { leftMenuReducer } from "../slices/leftmenu/leftmenu.slice";
 import { createWrapper } from "next-redux-wrapper";
-import {topMenuReducer} from "@/redux/slices/topmenu/topmenu.slice";
+import { topMenuReducer } from "@/redux/slices/topmenu/topmenu.slice";
+import { mobileMenuReducer } from "../slices/mobileMenu/mobileMenu.slice";
 
 export const store = () =>
   configureStore({
-    reducer: { leftMenu: leftMenuReducer, topMenu: topMenuReducer },
+    reducer: {
+      leftMenu: leftMenuReducer,
+      topMenu: topMenuReducer,
+      mobileMenu: mobileMenuReducer,
+    },
     devTools: true,
   });
 

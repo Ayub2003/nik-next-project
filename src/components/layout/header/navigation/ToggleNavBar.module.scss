@@ -1,0 +1,45 @@
+.wrapper {
+  position: relative;
+  min-height: 50px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+@media screen and (min-device-width: 800px) {
+  .wrapper {
+    display: none;
+  }
+}
+
+.line,
+.lineActive {
+  position: absolute;
+  background-color: white;
+  padding: 2px;
+  width: 20px;
+  border-radius: 100px;
+  transition: all 1s;
+}
+
+.line:nth-child(1) {
+  top: 35%;
+}
+.line:nth-child(2) {
+  top: 50%;
+}
+.line:nth-child(3) {
+  top: 65%;
+}
+
+.lineActive:nth-child(1) {
+  top: 35%;
+  transform: translateX(-100px);
+}
+.lineActive:nth-child(2) {
+  top: 50%;
+  transform: rotate(45deg);
+}
+.lineActive:nth-child(3) {
+  top: 50%;
+  transform: rotate(-45deg);
+}

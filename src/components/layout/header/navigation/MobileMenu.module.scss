@@ -1,0 +1,51 @@
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 20;
+  font-size: 150%;
+  height: auto;
+  padding: 0px 20px;
+  align-self: center;
+  border-right: 1px black solid;
+}
+
+@media screen and (min-device-width: 800px) {
+  .wrapper {
+    display: none;
+  }
+}
+
+.back {
+  position: relative;
+  min-height: 50px;
+  text-align: center;
+  margin-left: 10px;
+  padding-bottom: 50px;
+}
+
+.line {
+  position: absolute;
+  background-color: black;
+  padding: 2px;
+  width: 20px;
+  border-radius: 100px;
+  transition: all 1s;
+}
+
+.line:nth-child(1) {
+  top: 50%;
+  transform: rotate(45deg);
+}
+.line:nth-child(2) {
+  top: 50%;
+  transform: rotate(-45deg);
+}
+
+.chapter {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: black 1px solid;
+  padding: 20px 0px;
+}
