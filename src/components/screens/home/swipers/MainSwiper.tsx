@@ -12,6 +12,7 @@ const s = styles;
 import { Navigation } from "swiper";
 
 export const NewsSwiper = () => {
+  const [name, setName] = useState("напиши имя");
   const exampleImg =
     "https://www.interfax.ru/ftproot/photos/photostory/2022/04/29/week/week7_1100.jpg";
   return (

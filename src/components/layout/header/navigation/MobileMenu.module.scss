@@ -4,9 +4,8 @@
   left: 0;
   background-color: white;
   z-index: 20;
-  font-size: 150%;
+  font-size: 120%;
   height: auto;
-  padding: 0px 20px;
   align-self: center;
   border-right: 1px black solid;
 }
@@ -19,9 +18,9 @@
 
 .back {
   position: relative;
-  min-height: 50px;
+  min-height: 25px;
   text-align: center;
-  margin-left: 10px;
+  margin-left: 15px;
   padding-bottom: 50px;
 }
 
@@ -41,11 +40,4 @@
 .line:nth-child(2) {
   top: 50%;
   transform: rotate(-45deg);
-}
-
-.chapter {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: black 1px solid;
-  padding: 20px 0px;
 }

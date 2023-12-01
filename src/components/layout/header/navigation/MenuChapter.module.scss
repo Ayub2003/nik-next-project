@@ -1,0 +1,61 @@
+.chapterClosed,
+.chapterOpened {
+  position: relative;
+  overflow: hidden;
+  padding: 13px 0px;
+  margin: 0px 12px;
+  transition: all 0.2s ease-in-out;
+  border-top: black 1px solid;
+
+  align-items: center;
+
+  p {
+    max-width: 85%;
+  }
+
+  list-style: none;
+}
+
+.chapterOpened {
+  background-color: rgb(251, 251, 251);
+}
+
+.chapterClosed {
+  background-color: rgb(255, 255, 255);
+}
+
+.checkMarkOpened,
+.checkMarkClosed {
+  position: absolute;
+  display: flex;
+  transition: all 0.2s;
+  right: 0px;
+  top: 30px;
+}
+
+.checkMarkClosed {
+  transform: rotate(180deg) scale(70%);
+}
+
+.checkMarkOpened {
+  transform: scale(70%);
+}
+
+.line:nth-child(1) {
+  padding: 2px 1px;
+  width: 1em;
+  background-color: rgb(0, 5, 5);
+  transform: rotate(45deg) translateX(6px);
+}
+.line:nth-child(2) {
+  padding: 2px 1px;
+  width: 1em;
+  background-color: rgb(9, 0, 0);
+  transform: rotate(-45deg) translateX(-6px);
+}
+
+.chapterListOpened {
+}
+
+.chapterListClosed {
+}
